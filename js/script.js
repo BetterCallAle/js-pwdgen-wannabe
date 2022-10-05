@@ -21,7 +21,7 @@ console.log(favouriteColor)
 const password = userName + userSurname + favouriteColor + constantNumber
 console.log(password);
 
-const result = `Complimenti! la tua password è ${password}`
+const result = `Complimenti! la tua password generata è ${password}`
 
 //output
 document.getElementById("result").innerHTML = result
