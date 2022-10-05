@@ -4,16 +4,19 @@ poi chiedi il suo colore preferito
 Infine scrivi sulla pagina nomecognomecolorepreferito21 */
 
 //dati
-const number = "21"
+const constantNumber = "21"
+console.log(constantNumber);
 
 //input
-const name = prompt("Inserisci il tuo nome")
-console.log("name");
+const userName = prompt("Inserisci il tuo nome")
+console.log(userName);
 
-const surname = prompt("Inserisci il tuo cognome")
-console.log("surname");
+const userSurname = prompt("Inserisci il tuo cognome")
+console.log(userSurname);
 
-const color = prompt("Inserisci il tuo colore preferito")
-console.log("color")
+const favouriteColor = prompt("Inserisci il tuo colore preferito")
+console.log(favouriteColor)
 
 //elaborazione
+const password = userName + userSurname + favouriteColor + constantNumber
+console.log(password);
