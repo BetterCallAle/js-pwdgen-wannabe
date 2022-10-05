@@ -1,0 +1,44 @@
+/* COMMON */
+body{
+    background-color: rgb(53, 54, 58);
+}
+
+/* HEADER */
+header{
+    background-color: black;
+}
+
+.nav-link{
+    color: white;
+}
+/* /HEADER */
+
+/* MAIN */
+section{
+    padding: 5rem 0;
+}
+
+.ms_container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    background-color: white;
+    padding: 2rem .5rem;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    border-bottom: 10px solid black;
+}
+
+h1::after{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    background-color: green;
+    border-radius: 30px;
+}
+
+/* /MAIN */
